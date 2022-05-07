@@ -15,3 +15,6 @@
      - The frontend should send a PUT request
 
 6. Use Lowdb to store the messages in a file
+
+
+_Note: login password 'something'_
