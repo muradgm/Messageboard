@@ -1,6 +1,6 @@
 import db from "../db.js";
 
-let randomPass = 'something'
+let randomPass = "hi";
 // setInterval(() => {
 //   // let passArray = db.data.messages.map(msg => msg.id);
 //   // let randomIndex = Math.floor(Math.random() * passArray.length - 1)
@@ -10,13 +10,12 @@ let randomPass = 'something'
 // }, 10 * 60 * 1000)
 
 const checkPassword = (req, res, next) => {
-  const password = req.get("Authorization");
-  
-  
-  if (password !== randomPass) {
-    res.status(401).send({ error : "Invalid password"})
-  }
-  next()
-}
+	const password = req.get("Authorization");
 
-export default checkPassword
+	if (password !== randomPass) {
+		res.status(401).send({ error: "Invalid password" });
+	}
+	next();
+};
+
+export default checkPassword;

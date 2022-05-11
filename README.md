@@ -17,4 +17,4 @@
 6. Use Lowdb to store the messages in a file
 
 
-_Note: login password 'something'_
+_Note: login password 'hi'_

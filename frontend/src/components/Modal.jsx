@@ -33,7 +33,7 @@ const ModalComponent = (props) => {
             <Form.Label>Message</Form.Label>
             <Form.Control value={newMessage} onChange={e => setNewMessage(e.target.value)} as="textarea" rows={3} placeholder="Message"/>
           </Form.Group>
-          <Button variant="primary" type="submit">
+          <Button variant="primary" type="submit" onClick={(e) => e.preventDefault}>
             Submit
           </Button>
         </Form>
