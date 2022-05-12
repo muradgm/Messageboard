@@ -17,9 +17,11 @@
 
 
 ##### Modules/Packages/Libraries used:
-    - `react: ^17.0.2`
-    - `react-bootstrap: ^2.2.2`
-    - `cors: ^2.8.5`
-    - `express: ^4.17.3`
-    - `lowdb: ^3.0.0`
-    - `nanoid: ^3.3.2`
+   ```
+   react: ^17.0.2
+   react-bootstrap: ^2.2.2
+   cors: ^2.8.5
+   express: ^4.17.3
+   lowdb: ^3.0.0
+   nanoid: ^3.3.2
+   ```
