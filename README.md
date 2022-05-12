@@ -23,6 +23,3 @@
     - `express: ^4.17.3`
     - `lowdb: ^3.0.0`
     - `nanoid: ^3.3.2`
-
-
-_Note: login password 'hi'_
